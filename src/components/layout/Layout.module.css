@@ -1,0 +1,14 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.layout>main{
+    padding: 50px;
+    background-image: linear-gradient(to right, #ebf0f0,rgb(161, 158, 158));
+}
+.layout>h1{
+    margin: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+}

@@ -1,0 +1,10 @@
+.conteudo{
+ background-color: blueviolet;
+}
+.conteudo > div > div{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+

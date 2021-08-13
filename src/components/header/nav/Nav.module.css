@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    font-family: fantasy;
+}
+.nav>a:focus{
+    color: grey;
+    text-shadow: none;
+    margin-top: 2px;  
+}
+
+.nav>a:hover{
+    color: grey;
+}
