@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Open from '../../open'
 import styles from './CntPrincipal.module.css'
 export default function Conteudo(){
