@@ -8,7 +8,7 @@ export default function Conteudo(){
             </div>
             <div className="row">
                 <h1 className="col">Quero pizza</h1>
-                <img src="" alt="" />
+                <Image src="" alt="" />
             </div>
 
         </div>

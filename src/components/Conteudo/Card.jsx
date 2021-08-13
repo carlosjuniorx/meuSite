@@ -1,8 +1,9 @@
+import Image from "next/image"
 import styles from "./Card.module.css"
 export default function Card(){
     return(
         <div className={"card " + styles.card}>
-            <img src="images/profile.jpg" className="card-img-top" alt="..."/>
+            <Image src="images/profile.jpg" className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
