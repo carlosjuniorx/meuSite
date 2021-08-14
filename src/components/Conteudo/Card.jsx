@@ -3,7 +3,7 @@ import styles from "./Card.module.css"
 export default function Card(){
     return(
         <div className={"card " + styles.card}>
-            <Image src="images/profile.jpg" className="card-img-top" alt="..."/>
+            <Image width={400} height={600} src="images/profile.jpg" className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">

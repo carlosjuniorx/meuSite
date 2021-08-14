@@ -3,12 +3,12 @@ import Header from '../header/Header'
 import Footer from '../Footer'
 
 
-export default function Layout({children, ...pageProps}){
+export default function Layout({Component, ...pageProps}){
     return(
         <div className= {styles.layout}>
             <Header></Header>
             <h1>{pageProps.title}</h1>
-            <main>{children}</main>
+            <main>{Component}</main>
             <Footer className={styles.layout}></Footer>
         </div>
     )

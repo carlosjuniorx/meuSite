@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout'
 export default function Inicio(){
 
         return (
-            <Layout>
+            <Layout title="Inicio">
                 <div className='container-fluid'>
                     <ConteudoPrincipal></ConteudoPrincipal>
                 </div>

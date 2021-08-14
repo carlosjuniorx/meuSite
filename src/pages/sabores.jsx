@@ -1,9 +1,7 @@
 import Slider from "../components/slider/Slider"
 import Layout from "../components/layout/Layout"
 import ImageS from "../components/slider/ImageS"
-/*  <ImageSlid image={"images/logoHeader.png"} active="active"/>
-                <ImageSlid image={"images/pepperoni.png"}/> 
-                <ImageSlid image={"images/gorgonzola.jpg"}/> */
+
 export default function Sabores(){
     return(
         <Layout title="Sabores">   
