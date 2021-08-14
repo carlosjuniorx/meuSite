@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Open from '../../open'
+
+import Open from '../../Open'
 import styles from './CntPrincipal.module.css'
 export default function Conteudo(){
     return(
@@ -9,7 +9,7 @@ export default function Conteudo(){
             </div>
             <div className="row">
                 <h1 className="col">Quero pizza</h1>
-                <Image src="" alt="" />
+                
             </div>
 
         </div>
