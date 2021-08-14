@@ -9,7 +9,7 @@ export default function Layout({children, ...pageProps}){
             <Header></Header>
             <h1>{pageProps.title}</h1>
             <main>{children}</main>
-            <Footer style></Footer>
+            <Footer className={styles.layout}></Footer>
         </div>
     )
 }
