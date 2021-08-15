@@ -1,4 +1,4 @@
-import ConteudoPrincipal from '../components/conteudo/conteudoPrincipal/ConteudoPrincipal'
+import ConteudoPrincipal from '../components/contente/conteudoPrincipal/ConteudoPrincipal'
 import Layout from '../components/layout/Layout.jsx'
 
 export default function Index(){
