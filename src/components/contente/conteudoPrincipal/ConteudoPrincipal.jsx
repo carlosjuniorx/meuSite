@@ -1,5 +1,5 @@
 
-import Open from '../../Open'
+import Open from '../../Horarios'
 import styles from './CntPrincipal.module.css'
 export default function Conteudo(){
     return(
