@@ -1,7 +1,7 @@
-import ConteudoPrincipal from '../components/Conteudo/conteudoPrincipal/ConteudoPrincipal'
-import Layout from '../components/layout/Layout'
+import ConteudoPrincipal from '../components/conteudo/conteudoPrincipal/ConteudoPrincipal.jsx'
+import Layout from '../components/layout/Layout.jsx'
 
-export default function Inicio(){
+export default function Index(){
 
         return (
             <Layout title="Inicio">
@@ -9,6 +9,7 @@ export default function Inicio(){
                     <ConteudoPrincipal></ConteudoPrincipal>
                 </div>
             </Layout>
+
         )
 
 }

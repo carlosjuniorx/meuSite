@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
-import Logo from "./Logo"
-import NavBar from "./NavBar"
+import Logo from "./Logo.jsx"
+import NavBar from "./NavBar.jsx"
 export default function Header(){
     return(
         <div className={styles.header}>

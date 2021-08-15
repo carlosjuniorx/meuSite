@@ -1,14 +1,14 @@
 import styles from './Layout.module.css'
-import Header from '../header/Header'
-import Footer from '../Footer'
+import Header from '../header/Header.jsx'
+import Footer from '../Footer.jsx'
 
 
-export default function Layout({Component, ...pageProps}){
+export default function Layout({children, ...props}){
     return(
         <div className= {styles.layout}>
             <Header></Header>
-            <h1>{pageProps.title}</h1>
-            <main>{Component}</main>
+            <h1>{props.title}</h1>
+            <main>{children}</main>
             <Footer className={styles.layout}></Footer>
         </div>
     )
