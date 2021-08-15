@@ -1,5 +1,5 @@
 
-import Open from '../../Open.jsx'
+import Open from '../../Open'
 import styles from './CntPrincipal.module.css'
 export default function Conteudo(){
     return(
