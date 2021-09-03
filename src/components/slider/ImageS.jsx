@@ -5,7 +5,7 @@ export default function ImageS({children, ...pageProps}){
 
         <div data-bs-interval="3000" className={`carousel-item ${pageProps.active} d-flex ${styles.imageS}`}>
             <div>
-            <Image width={800} height={1000} className="img-fluid" src={pageProps.img} alt="" />
+            <Image width={1000} height={1500} className="img-fluid" src={pageProps.img} alt="" />
             </div>
         </div>
  
