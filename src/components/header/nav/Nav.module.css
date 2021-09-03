@@ -7,10 +7,11 @@
 }
 .nav>a:focus{
     color: grey;
-    text-shadow: none;
     margin-top: 2px;  
 }
 
 .nav>a:hover{
     color: grey;
 }
+
+
